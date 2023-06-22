@@ -1,3 +1,5 @@
+//Program to find the area of circle 
+
 #include<iostream>
 using namespace std;
 int main()
@@ -8,3 +10,9 @@ int main()
     cout<<b;
     return 0;
 }
+
+INPUT:
+6
+
+OUTPUT:
+113.097
