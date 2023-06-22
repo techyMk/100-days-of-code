@@ -1,3 +1,5 @@
+//Program to print sum combinations of given three numbers
+
 #include<iostream>
 using namespace std;
 int main()
@@ -14,3 +16,9 @@ int main()
     }
     return 0;
 }
+
+INPUT:
+12
+
+OUTPUT:
+Yes
