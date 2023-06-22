@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    float pi=3.14159265359,a,b;
+    cin>>a;
+    b=a*a*pi;
+    cout<<b;
+    return 0;
+}
