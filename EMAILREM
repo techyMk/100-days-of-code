@@ -1,0 +1,12 @@
+//Program to find how many participants should MoEngage send the contest emails to?
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int n,u,x;
+	cin>>n>>u;
+	x=n-u;
+	cout<<x;
+	return 0;
+}
