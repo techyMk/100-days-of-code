@@ -1,0 +1,17 @@
+//Program to find yje maximum amount of extra water
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,x,k,r;
+	cin>>t;
+	while(t>0)
+	{
+	    cin>>k>>x;
+	    r=k-x;
+	    cout<<r<<"\n";
+	    t--;
+	}
+	return 0;
+}
