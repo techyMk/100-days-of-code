@@ -1,0 +1,23 @@
+//Program to find Can she eat all the loaves of bread before they expire?
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,n,m,k,x;
+	cin>>t;
+	while(t>0)
+	{
+	    cin>>n>>m>>k;
+	    if(m*k-n>=0)
+	    {
+	        cout<<"YES"<<"\n";
+	    }
+	    else
+        {
+            cout<<"NO"<<"\n";
+        }
+        t--;
+	}
+	return 0;
+}
