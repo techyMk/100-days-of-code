@@ -1,0 +1,16 @@
+//Program to find total number of tyres
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,n,m,x;
+	cin>>t;
+	while(t--)
+	{
+	    cin>>n>>m;
+	    x=(n*2)+(m*4);
+	    cout<<x<<"\n";
+	}
+	return 0;
+}
