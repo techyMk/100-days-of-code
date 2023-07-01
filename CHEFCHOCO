@@ -1,0 +1,18 @@
+//Program to Calculate the minimum money in rupees Chef needs to spend
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,c,x,y,z;
+	cin>>t;
+	while(t>0)
+	{
+	    cin>>c>>x>>y;
+	    z=c-x;
+	    z*=y;
+	    cout<<z<<"\n";
+	    t--;
+	}
+	return 0;
+}
