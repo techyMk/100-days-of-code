@@ -1,0 +1,17 @@
+//Program to find out how much total money Janmansh he have
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,x,y,z;
+	cin>>t;
+	while(t>0)
+	{
+	    cin>>x>>y;
+	    z=(x*10)+(y*5);
+	    cout<<z<<"\n";
+	    t--;
+	}
+	return 0;
+}
