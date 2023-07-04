@@ -1,0 +1,28 @@
+//Program to Determine which offer will Devendra accept or if both the offers are equally good.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,x,y;
+	cin>>t;
+	while(t>0)
+	{
+	    cin>>x>>y;
+	    int a=10*x,b=5*y;
+	    if(a==b)
+	    {
+	        cout<<"ANY"<<"\n";
+	    }
+	    else if(a>b)
+	    {
+	        cout<<"FIRST"<<"\n";
+	    }
+	    else
+        {
+            cout<<"SECOND"<<"\n";
+        }
+        t--;
+	}
+	return 0;
+}
