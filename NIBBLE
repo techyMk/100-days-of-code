@@ -1,0 +1,22 @@
+//Program to determine whether given program is Good or Not Good.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t,x;
+	cin>>t;
+	while(t--)
+	{
+	    cin>>x;
+	    if(x%4==0)
+	    {
+	        cout<<"GOOD"<<"\n";
+	    }
+	    else
+        {
+            cout<<"NOT GOOD"<<"\n";
+        }
+	}
+	return 0;
+}
