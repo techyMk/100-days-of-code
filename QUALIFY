@@ -1,0 +1,24 @@
+//Program to find whether the Chef can qualify or not?
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t,x,y,a,b;
+    cin>>t;
+    while(t>0)
+    {
+        cin>>x>>a>>b;
+        y=a+(b*2);
+        if(x<=y)
+        {
+            cout<<"QUALIFY"<<"\n";
+        }
+        else
+        {
+            cout<<"NOT QUALIFY"<<"\n";
+        }
+        t--;
+    }
+	return 0;
+}
