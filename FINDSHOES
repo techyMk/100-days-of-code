@@ -1,0 +1,24 @@
+//Program to find the minimum number of extra shoes that Chef will have to buy
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int n,m,x;
+	    cin>>n>>m;
+	    if(m>n)
+	    {
+	        cout<<n<<"\n";
+	    }
+	    else
+	    {
+	        x=(m+(n-m)*2);
+	        cout<<x<<"\n";
+	    }
+	}
+	return 0;
+}
