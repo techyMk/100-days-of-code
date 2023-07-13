@@ -1,0 +1,25 @@
+//Program to find Employee's gross salary
+
+#include <iostream>
+#include<iomanip>
+using namespace std;
+
+int main(){
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        float x,y;
+        cin>>x;
+        if(x<1500)
+        {
+            cout<<x*2<<"\n";
+        }
+        else
+        {
+            y=(0.98*x)+500;
+            cout<<fixed<<setprecision(2)<<x+y<<"\n";
+        }
+    }
+	return 0;
+}
