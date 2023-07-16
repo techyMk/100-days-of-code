@@ -1,0 +1,22 @@
+//Program to find whether the chef needs subscription or not
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t,x;
+	cin>>t;
+	while(t--)
+	{
+	    cin>>x;
+	    if(x<=30)
+	    {
+	        cout<<"NO"<<endl;
+	    }
+	    else
+        {
+            cout<<"YES"<<endl;
+        }
+	}
+	return 0;
+}
