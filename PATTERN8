@@ -1,0 +1,25 @@
+//Program to print pattern
+
+void printSquare(int n) {
+        int ar=n*2-1;
+        int r[ar][ar];
+        for(int i=0;i<ar;i++)
+        {
+            for(int j=0;j<ar;j++)
+            {
+                if(abs(i-ar/2)>abs(j-ar/2))
+                  r[i][j]=abs(i-ar/2)+1;
+                else
+                  r[i][j]=abs(j-ar/2)+1;
+            }
+        }
+        for(int i=0;i<ar;i++)
+        {
+            for(int j=0;j<ar;j++)
+            {
+                cout<<r[i][j]<<" ";
+                
+            }
+            cout<<endl;
+        }
+    }
