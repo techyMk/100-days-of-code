@@ -1,0 +1,28 @@
+//Program to find the reverse of the given number
+
+class Solution {
+    public int reverse(int x) 
+        {
+        if(x==-2147483648 && x<=2147483647)
+           return 0;
+        boolean isNoNegative=x<0?true:false;
+        if(isNoNegative)
+        {
+            x*=-1;
+        }
+        int rev=0;
+        int l=0;
+        while(x>=1)
+        {
+            if(rev>214748364)
+               return 0;
+            if((x%10)>7 && rev==214748364)
+               return 0;
+            l=x%10;
+            rev=rev*10+l;
+            x/=10;
+        }
+        return isNoNegative==true?rev*-1:rev;
+        
+    }
+}
