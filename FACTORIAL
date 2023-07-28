@@ -1,0 +1,13 @@
+//Program to find the factorial of the given number
+
+class Solution{
+public:
+    long long int factorial(int N){
+        long long int a=1;
+        for(int i=1;i<=N;i++)
+        {
+            a*=i;
+        }
+        return a;
+    }
+};
