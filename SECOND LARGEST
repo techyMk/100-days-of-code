@@ -1,0 +1,23 @@
+//Program to find the second largest number in an array
+
+class Solution{
+public:	
+	// Function returns the second
+	// largest elements
+	int print2largest(int arr[], int n) {
+	    int large=arr[0],second=-1;
+	    for(int i=1;i<n;i++)
+	    {
+	        if(arr[i]>large)
+	        {
+	            second=large;
+	            large=arr[i];
+	        }
+	        else if(arr[i]<large&&arr[i]>second)
+	        {
+	            second=arr[i];
+	        }
+	    }
+	     return second;
+	}
+};
