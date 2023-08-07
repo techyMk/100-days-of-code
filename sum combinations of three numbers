@@ -12,14 +12,3 @@ int main()
     cout<<d<<"\n"<<e<<"\n"<<f;
     return 0;
 }
-
-
-INPUT:
-2
-4
-6
-
-OUTPUT:
-6
-8
-10
