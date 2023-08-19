@@ -1,0 +1,29 @@
+//Program to find the longest sub-array using the given k
+
+class Solution{
+    public:
+    int lenOfLongSubarr(int A[],  int N, int K) 
+    { 
+        int sum=0,i;
+        unordered_map<int, int>mp;
+        int a=0;
+        for(i=0;i<N;i++)
+        {
+            sum+=A[i];
+            int diff=sum-K;
+            if(diff==0)
+            {
+                a=max(a,i+1);
+            }
+            if(mp[diff])
+            {
+                a=max(a,i-mp[diff]+1);
+            }
+            if(!mp[sum])
+            {
+                mp[sum]=i+1;
+            }
+        }
+        return a;
+    } 
+};
